@@ -3,13 +3,13 @@ def zamienianie_na_wieksza(litera):
     numer_lit -= 32
     return chr(numer_lit)
 
-text = input()
+stary_text = input()
 nowyText = ''
 
-for i in range(len(text)):
-    if text[i] != '_':
-        if text[i-1] == '_':
-            nowyText += zamienianie_na_wieksza(text[i])
+for i in range(len(stary_text)):
+    if stary_text[i] != '_':
+        if stary_text[i-1] == '_':
+            nowyText += zamienianie_na_wieksza(stary_text[i])
         else: 
-            nowyText += text[i]
+            nowyText += stary_text[i]
 print(nowyText)
