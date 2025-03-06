@@ -1,6 +1,8 @@
 def potegi(a, b):
+    a = a%10
     c = 1
     for _ in range(b):
+        c = c%10
         c = c * a
     return c % 10
 
