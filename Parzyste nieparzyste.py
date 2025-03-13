@@ -9,4 +9,3 @@ for _ in range(t):
     for i in range(n):
         if i % 2 == 0: # pozycja nieparzysta
             print(lista[i],end=' ')
-
