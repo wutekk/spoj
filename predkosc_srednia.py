@@ -5,6 +5,7 @@
 # v_sr = 2s / (s/v1 + s/v2)
 # v_sr = 2*v1*v2/((v2 + v1))
 ODL_MIAST = 1
+
 t = int(input())
 for i in range(t):
     lista = list(map(int, input().split(" ")))
@@ -20,3 +21,5 @@ for i in range(t):
     wynik = round(wynik)
     # suma drog / suma czasow = wynik
     print(wynik)
+
+# jest dobrze ale sędzia randomow nie uznaje !!!
